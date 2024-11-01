@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="./assets/img/anh2.png" alt=""></img></div>
+        <div class="header-content">
+            <p>1840 E Garvey ave south west<br> covina, ca 91791 <span class="span1">view on map</span></p>
+            <p>phone<br><span class="span2">878-9674-4455</span></p>
+            <p>service <span class="span3">878-3853-9576</span><br>parts <span class="span3">878-0505-0440</span></p>
+            <div class="icon-header">
+            <i class="fa-brands fa-facebook icons"></i>
+            <i class="fa-brands fa-twitter icons"></i>
+            <i class="fa-brands fa-instagram icons"></i>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <span class="menu"><i class="fa-solid fa-bars"></i></span>
+        <ul class="main-nav">
+            <li><a href="">Home</a></li>
+            <li><a href="/KHO/Car2.html">Inventory</a></li>
+            <li>
+                <a href="">Shop</a>
+                <ul class="sub-nav">
+                    <li><a href="/CAR/indexcar.html">Car</a></li>
+                    <li><a href="/MOTO/shop.html">Motor</a></li>
+                </ul>
+            </li>
+            <li><a href="/QUANLY/quanly.html">Contact us</a></li>
+        </ul>
+
+        <div class="login">
+            <button class="js-login">Đăng nhập</button>
+            <button class="js-signup">Đăng ký</button>
+        </div>
+    </nav>
+
+    <main>
+        
+
+        <div class="images-container">
+            <div class="images">
+                <img class="image" src="./assets/img/anh4.jpg" alt=""></img>
+                <img class="image" src="./assets/img/anh4.jpg" alt=""></img>
+                <img class="image" src="./assets/img/anh4.jpg" alt=""></img>
+                <img class="image" src="./assets/img/anh4.jpg" alt=""></img>
+                <img class="image" src="./assets/img/anh4.jpg" alt=""></img>
+            </div>
+            <button class="prev" onclick="prevImage()">&#10094</button>
+            <button class="next" onclick="nextImage()">&#10095</button>
+        </div>
+        
+            <div class="slider-header">
+                <h1>Car dealer <span style="color:rgb(223, 116, 15)">wordpress theme</span></h1>
+                <ul>
+                    <li><a href="">New cars</a></li>
+                    <li><a href="">Used cars</a></li>
+                    <li><a href="">Search inventory</a></li>
+                </ul>
+            </div>
+
+        <div class="sliders">
+            <div class="slider-list">
+                <div class="row row-cols-2 gy-1">
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/mercedes-ben-e.webp" alt=""></img>
+                            <div class="box-content">
+                            <p>Mercedes - benz - e 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/26 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>100 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/nissan-altima.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>Nissan altima 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>25/36 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>18000 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/tesla.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>Tesla roadster 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>400 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/lexurs.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>lexurs - rx 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>2000 <i class="fa-solid fa-road"></i></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/chevrolet.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>chevrolet trax 2024 </p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>200 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/honda.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>Honda accord 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>100 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/bnw.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>bnw 5-series 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="box">
+                            <img src="./assets/img/acura-ilx.webp" alt=""></img>
+                            <div class="box-content">
+                            <p>acura ilx 2024</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>12/100 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>100 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showall">
+                <button>Show all</button>
+            </div>
+        </div>
+         
+        <div class="images2-container">
+            <div class="images2">
+            <div class="row row-cols-1 gy-3">
+                <div class="col-md-6">
+                    <div class="box1">
+                        <h1>Are You looking for a car?</h1>
+                        <p>Our cars are delivered fully-registered with all requirements completed. We’ll deliver your car wherever you are.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="box2">
+                        <h1>Do You want to sell a car?</h1>
+                        <p>What's your car worth? Receive the absolute best value for your trade-in vehicle. We even handle all paperwork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="specials">
+            <div class="specials-header">
+                <h1>Specials</h1>
+            </div>
+
+            <div class="specials-list">
+                <div class="row row-cols-1 gy-3">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="./assets/img/mercedes-ben-e.webp" alt=""></img>
+                            <div class="box-content">
+                            <p>Mercedes - benz - e 2.....</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/26 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>100 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="./assets/img/nissan-altima.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>nissan altima 2025</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p class="nissan">limited offer: only 5 cars left</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="./assets/img/lexurs.jpg" alt=""></img>
+                            <div class="box-content">
+                            <p>lexurs rx-350 gray leat .....</p>
+                            <button><del>$39 600</del><br> $35 000</button>
+                            </div>
+                            <div class="icon">
+                                <p>18/26 <i class="fa-solid fa-gas-pump"></i></p>
+                                <p>Automatic <i class="fa-solid fa-gear"></i></p>
+                                <p>100 <i class="fa-solid fa-road"></i></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="whychooseus-container">
+            <div class="whychooseus">
+                <h1>Why choose us</h1>
+                <div class="row row-cols-2">
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-trademark"></i>
+                        <div class="box">
+                            <h3>Financing made easy</h3>
+                            <p>Our stress-free finance department that can find financial solutions to save you money.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa-regular fa-comment"></i>
+                        <div class="box">
+                            <h3>Financing made easy</h3>
+                            <p>Our stress-free finance department that can find financial solutions to save you money.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-trademark"></i>
+                        <div class="box">
+                            <h3>Financing made easy</h3>
+                            <p>Our stress-free finance department that can find financial solutions to save you money.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="fa-regular fa-message"></i>
+                        <div class="box">
+                            <h3>Financing made easy</h3>
+                            <p>Our stress-free finance department that can find financial solutions to save you money.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="learnmore">
+                <button><i class="fa-solid fa-briefcase"></i>Learn more</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="row row-cols-2 ">
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1><span style="color:rgb(38, 115, 209)">Motors</span> Dealership</h1>
+                        <p>As the leading dealer in Chicago, we are confident that we will save you time and money. Motors is ultimate Automotive, Car Dealer WordPress theme.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Photo gallery</h1>
+                        <img src="./assets/img/bnw.jpg" alt=""></img>
+                        <img src="./assets/img/honda.jpg" alt=""></img>
+                        <img src="./assets/img/chevrolet.jpg" alt=""></img>
+                        <img src="./assets/img/tesla.jpg" alt=""></img>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Latest blog posts</h1>
+                        <p>The Tesla Model S isn't the first truly autonomous car on the road</p>
+                        <span style="font-size: 10px"><i class="fa-regular fa-comment"></i>no comment</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Social netwwork</h1>
+                        <div class="icons"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="icons"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icons"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icons"><i class="fa-brands fa-youtube"></i></div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Subscirbe</h1>
+                        <input type="text" placeholder="Enter your email...">
+                        <p>Get latest updates anh offers</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Sales housrs</h1>
+                        <p><span class="days">Monday-Friday:</span> 09:00AM - 09:00PM</p>
+                        <p><span class="days">Saturday:</span> 09:00AM - 07:00PM</p>
+                        <p><span class="days">Sunday:</span> Closed</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Service hours</h1>
+                        <p><span class="days">Monday-Friday:</span> 09:00AM - 09:00PM</p>
+                        <p><span class="days">Saturday:</span> 09:00AM - 07:00PM</p>
+                        <p><span class="days">Sunday:</span> Closed</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="box1">
+                        <h1>Parts hours</h1>
+                        <p><span class="days">Monday-Friday:</span> 09:00AM - 09:00PM</p>
+                        <p><span class="days">Saturday:</span> 09:00AM - 07:00PM</p>
+                        <p><span class="days">Sunday:</span> Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footers">
+                <p>Copyright &copy 2021. Motors â€“ WordPress Theme by StylemixThemes.</p>
+                <div class="icon-footer">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            </div>
+    </footer>
+
+
+    <div class="login-container">
+        <div class="login-content">
+            <i class="fa-solid fa-xmark js-closelogin"></i>
+            <h1>Sign in</h1>
+         <div class="login-body">
+             <input id="emails" type="email" class="login-input" placeholder="Enter E-mail">
+             <input id="passwords" type="password" class="login-input" placeholder="Enter Password">
+             <span>
+             <lable class="login-lable"><input type="checkbox"> Remember Me</lable>
+             <a href="">Forgot Password?</a>
+             </span>
+             <button>Sign in</button>
+            </div>
+        </div>
+     </div>
+
+
+     <div class="signup-container">
+        <div class="signup-content">
+            <i class="fa-solid fa-xmark js-closelogin"></i>
+            <h1>Sign up</h1>
+         <div class="signup-body">
+             <input id="emails" type="email" class="signup-input" placeholder="Enter E-mail">
+             <input id="passwords" type="password" class="signup-input" placeholder="Password">
+             <input id="passwords" type="password" class="signup-input" placeholder="Re-Enter Password">
+             <span>
+             <lable class="signup-lable"><input type="checkbox"> Remember Me</lable>
+             <a href="">Forgot Password?</a>
+             </span>
+             <button>Sign up</button>
+            </div>
+        </div>
+     </div>
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

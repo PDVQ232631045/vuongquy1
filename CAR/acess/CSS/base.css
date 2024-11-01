@@ -1,0 +1,12 @@
+:root {
+  --color-one: #1b2c34;
+  --color-two: #ff9502;
+  --color-three: #232628;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+}
