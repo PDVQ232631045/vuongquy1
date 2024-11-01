@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="shop.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav>
+        <p>m<span>otors</span></p>
+        <span class="menu"><i class="fa-solid fa-bars"></i></span>
+        <ul class="main-nav">
+            <li><a href="/TRANGCHU/index.html">Home</a></li>
+            <li><a href="/KHO/Car2.html">Inventory</a></li>
+            <li>
+                <a href="">Shop</a>
+                <ul class="sub-nav">
+                    <li><a href="/CAR/indexcar.html">Car</a></li>
+                    <li><a href="">Motor</a></li>
+                </ul>
+            </li>
+            <li><a href="/QUANLY/quanly.html">Contact us</a></li>
+        </ul>
+
+        <div class="item">
+            <button><i class="fa-solid fa-car-side"></i> Add your item</button>
+        </div>
+    </nav>
+
+<main>
+    <section>
+        <div class="box">
+            <div class="slider">
+                <img src="moto9.jpg" alt="" class="slide">
+                <img src="moto6.jpg" alt="" class="slide">
+                <img src="moto10.jpg" alt="" class="slide">
+                <img src="moto8.jpg" alt="" class="slide">
+                <div class="click">
+                    <button onclick="goPrev()">&#10094</button>
+                    <button onclick="goNext()">&#10095</button>
+                </div>
+            </div>
+           
+            <div class="find">
+                <form action="">
+                    <select name="condition">
+                        <option value="">Choose Condition</option>
+                        <option value="all">All</option>
+                        <option value="new">New</option>
+                        <option value="Old">Old</option>
+                    </select>
+                    <select name="model">
+                        <option value="">Choose Model</option>
+                        <option value="all">All</option>
+                        <option value="new">New</option>
+                        <option value="Old">Old</option>
+                    </select>
+                    <select name="make">
+                        <option value="">Choose Make</option>
+                        <option value="all">All</option>
+                        <option value="new">New</option>
+                        <option value="Old">Old</option>
+                    </select>
+                    
+                </form>
+                <br/>
+                <button><i class="ti-search"></i> Tìm kiếm </button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="brower">
+        <div>
+            
+            <p>Brower by <span>Makes</span></p>
+            
+          
+        </div>
+        <div class="brand">
+
+                <div class="logo-item">
+                    <img src="logo6.png" alt="">
+                    <p><a href="">BMW Motorrad</a></p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo1.png" alt="">
+                    <p><a href=""> Harley-Davidson</a></p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo2.png" alt="">
+                    <p><a href="">Ducati</a></p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo3.png" alt="">
+                    <p><a href="">Triumph</a></p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo5.png" alt="">
+                    <p><a href="">Yamaha</a></p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo4.jpg" alt="">
+                    <p><a href="">Bently</a></p>
+                </div>
+                
+                
+            
+        </div>
+    </section>
+       
+    <section class="lastest">
+        <div class="orange">
+
+            <p>Lastest Premium <span>Motors</span></p>
+
+        </div>
+         
+        <div class="carlist">
+            <div class="car">
+               <img src="moto.jpg" alt="">
+               
+               <div class="sale">
+                <p> Yamaha YZF-R1</p>
+                <a id="address1" href="#"><del>$39 600</del><span>$35 000</span></a>
+                <div class="address">
+                    <div class="address-content">
+                        <h4>Chọn địa chỉ nhận hàng<span id="address-close1">X Đóng</span></h4>
+                        <form action="">
+                            <select name="" id="">
+                                <option value="#">--Chọn địa điểm--</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="#">--Chọn Quận/Huyện--</option>
+                                <option value="#">Cầu Giấy</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn Phường/xã--</option>
+                                <option value="#">Mai Dịch</option>
+                            </select>
+                            <input type="text" placeholder="Tên người nhận">
+                            <input type="text" placeholder="Số nhà, tên đường">
+                            <input type="text" placeholder="Số điện thoại">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+
+                </div>
+               </div>
+             
+               <div class="sub-car">
+                <p><i class="fa-solid fa-road"></i></i>5.000ml</p>
+                <p><i class="fa-solid fa-gas-pump"></i>16/100</p>
+                <p><i class="fa-solid fa-atom"></i>Manual</p>
+            </div>
+            </div>
+            <div class="car">
+               <img src="moto1.jpg" alt="">
+
+               <div class="sale">
+                <p>Suzuki GSX</p>
+                <a id="address2" href="#"><del>$39 600</del><span>$35 000</span></a>
+                <div class="address">
+                    <div class="address-content">
+                        <h4>Chọn địa chỉ nhận hàng<span id="address-close2">X Đóng</span></h4>
+                        <form action="">
+                            <select name="" id="">
+                                <option value="#">--Chọn địa điểm--</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="#">--Chọn Quận/Huyện--</option>
+                                <option value="#">Cầu Giấy</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn Phường/xã--</option>
+                                <option value="#">Mai Dịch</option>
+                            </select>
+                            <input type="text" placeholder="Tên người nhận">
+                            <input type="text" placeholder="Số nhà, tên đường">
+                            <input type="text" placeholder="Số điện thoại">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+
+                </div>
+               </div>
+            
+               <div class="sub-car">
+                   <p><i class="fa-solid fa-road"></i>5.000ml</p>
+                   <p><i class="fa-solid fa-gas-pump"></i>16/100</p>
+                   <p><i class="fa-solid fa-atom"></i>Manual</p>
+                </div> 
+            </div>
+            <div class="car">
+               <img src="moto3.jpg" alt="">
+               
+               <div class="sale">
+                <p> Yamaha NVX</p>
+                <a id="address3" href="#"><del>$39 600</del><span>$35 000</span></a>
+                <div class="address">
+                    <div class="address-content">
+                        <h4>Chọn địa chỉ nhận hàng<span id="address-close3">X Đóng</span></h4>
+                        <form action="">
+                            <select name="" id="">
+                                <option value="#">--Chọn địa điểm--</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="#">--Chọn Quận/Huyện--</option>
+                                <option value="#">Cầu Giấy</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn Phường/xã--</option>
+                                <option value="#">Mai Dịch</option>
+                            </select>
+                            <input type="text" placeholder="Tên người nhận">
+                            <input type="text" placeholder="Số nhà, tên đường">
+                            <input type="text" placeholder="Số điện thoại">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+
+                </div>
+               </div>
+
+               <div class="sub-car">
+                <p><i class="fa-solid fa-road"></i>5.000ml</p>
+                <p><i class="fa-solid fa-gas-pump"></i>16/100</p>
+                <p><i class="fa-solid fa-atom"></i>Manual</p>
+            </div>
+            </div>
+        </div>
+        <div class="button">
+
+            <button>SHOW ALL PREMIUM CARS</button>
+
+        </div>
+    </section>
+
+    <section class="car-image">
+        <div class="orange">
+            <p>Brower By <span>Category</span></p>
+        </div>
+        <br/>
+       
+        <div class="container">
+           <div class="row gx-5">
+             <div class="col-lg-4">
+                <div class="motor-img">
+                   <img src="moto1.jpg" alt="">
+                </div>
+             </div>
+             
+             <div class="col-8">
+                <div class="sale">
+                    <p>Yamaha MT-07 </p>
+                    <a href=""><del>$39 600</del><span>$35 000</span></a>
+                </div>
+                <div class="element">
+                     <div class="ele">
+                        <p><i class="fa-solid fa-road"></i>    MILEAGE</p>
+                        <h6>0 ml</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gas-pump"></i>   FUEL TYPE</p>
+                        <h6>Gasoline</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gear"></i>    ENGINE</p>
+                        <h6>6,2L V8</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-location-dot"></i>     LOCATION</p>
+                        <h6>Car's Auto</h6>
+                     </div>
+                </div>
+                <div class="contact">
+                    <p><i class="fa-solid fa-gauge fa-xl" style="color: #f08119;"></i></i>   ADD TO COMPARE</p>
+                    <P><i class="fa-solid fa-share-nodes fa-xl" style="color: #f08119;"></i></i>  SHARE THIS</P>
+                    <P><i class="fa-brands fa-watchman-monitoring fa-xl" style="color: #f08119;"></i>   TEST DRIVE</P>
+                </div>
+                <div class="hotline">
+                    <img src="hotline.png" alt="">
+                    <div class="seller">
+                        <p>Personal Seller:  <span>Mohamed ALi</span></p>
+                        <p><i class="fa-solid fa-phone-volume fa-lg" style="color: #f4aa0b;"></i>   036732440</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+           <div class="row gx-5" >
+             <div class="col-lg-4">
+                <div class="motor-img">
+                   <img src="moto2.jpg" alt="">
+                </div>
+             </div>
+             
+             <div class="col-8">
+                <div class="sale">
+                    <p> Kawasaki Z900 </p>
+                    <a href=""><del>$39 600</del><span>$35 000</span></a>
+                </div>
+                <div class="element">
+                     <div class="ele">
+                        <p><i class="fa-solid fa-road"></i>    MILEAGE</p>
+                        <h6>0 ml</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gas-pump"></i>   FUEL TYPE</p>
+                        <h6>Gasoline</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gear"></i>    ENGINE</p>
+                        <h6>6,2L V8</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-location-dot"></i>     LOCATION</p>
+                        <h6>South Booter</h6>
+                     </div>
+                </div>
+                <div class="contact">
+                    <p><i class="fa-solid fa-gauge fa-xl" style="color: #f08119;"></i></i>   ADD TO COMPARE</p>
+                    <P><i class="fa-solid fa-share-nodes fa-xl" style="color: #f08119;"></i></i>  SHARE THIS</P>
+                    <P><i class="fa-brands fa-watchman-monitoring fa-xl" style="color: #f08119;"></i>   TEST DRIVE</P>
+                </div>
+                <div class="hotline">
+                    <img src="hotline.png" alt="">
+                    <div class="seller">
+                        <p>Personal Seller:  <span>Mohamed ALi</span></p>
+                        <p><i class="fa-solid fa-phone-volume fa-lg" style="color: #f4aa0b;"></i>   036732440</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+           <div class="row gx-5" >
+             <div class="col-lg-4">
+                <div class="motor-img">
+                   <img src="moto3.jpg" alt="">
+                </div>
+             </div>
+             
+             <div class="col-8">
+                <div class="sale">
+                    <p>Suzuki DR-Z400S </p>
+                    <a href=""><del>$39 600</del><span>$35 000</span></a>
+                </div>
+                <div class="element">
+                     <div class="ele">
+                        <p><i class="fa-solid fa-road"></i>    MILEAGE</p>
+                        <h6>5000 ml</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gas-pump"></i>   FUEL TYPE</p>
+                        <h6>Gasoline</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gear"></i>    ENGINE</p>
+                        <h6>6,2L V8</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-location-dot"></i>     LOCATION</p>
+                        <h6>Boston, MA</h6>
+                     </div>
+                </div>
+                <div class="contact">
+                    <p><i class="fa-solid fa-gauge fa-xl" style="color: #f08119;"></i></i>   ADD TO COMPARE</p>
+                    <P><i class="fa-solid fa-share-nodes fa-xl" style="color: #f08119;"></i></i>  SHARE THIS</P>
+                    <P><i class="fa-brands fa-watchman-monitoring fa-xl" style="color: #f08119;"></i>   TEST DRIVE</P>
+                </div>
+                <div class="hotline">
+                    <img src="hotline.png" alt="">
+                    <div class="seller">
+                        <p>Personal Seller:  <span>Mohamed ALi</span></p>
+                        <p><i class="fa-solid fa-phone-volume fa-lg" style="color: #f4aa0b;"></i>   036732440</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+           <div class="row gx-5" >
+             <div class="col-lg-4">
+                <div class="motor-img">
+                   <img src="moto4.jpg" alt="">
+                </div>
+             </div>
+             
+             <div class="col-8">
+                <div class="sale">
+                    <p> Scout Bobber </p>
+                    <a href=""><del>$39 600</del><span>$35 000</span></a>
+                </div>
+                <div class="element">
+                     <div class="ele">
+                        <p><i class="fa-solid fa-road"></i>    MILEAGE</p>
+                        <h6>0 ml</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gas-pump"></i>   FUEL TYPE</p>
+                        <h6>Gasoline</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-gear"></i>    ENGINE</p>
+                        <h6>6,2L V8</h6>
+                     </div>
+                     <div class="ele">
+                        <p><i class="fa-solid fa-location-dot"></i>     LOCATION</p>
+                        <h6>Car's Auto</h6>
+                     </div>
+                </div>
+                <div class="contact">
+                    <p><i class="fa-solid fa-gauge fa-xl" style="color: #f08119;"></i></i>   ADD TO COMPARE</p>
+                    <P><i class="fa-solid fa-share-nodes fa-xl" style="color: #f08119;"></i></i>  SHARE THIS</P>
+                    <P><i class="fa-brands fa-watchman-monitoring fa-xl" style="color: #f08119;"></i>   TEST DRIVE</P>
+                </div>
+                <div class="hotline">
+                    <img src="hotline.png" alt="">
+                    <div class="seller">
+                        <p>Personal Seller:  <span>Mohamed ALi</span></p>
+                        <p><i class="fa-solid fa-phone-volume fa-lg" style="color: #f4aa0b;"></i>   036732440</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    
+   <footer>
+       <div class="footer-container">
+           <div class="footer-top">
+              
+                <p><span>m</span>otors</p>
+        
+              
+              <ul class="footer-menu"> 
+                <li><a href="">Dealer List</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Inventory</a></li>
+              </ul>
+           </div>
+
+           <div class="footer-bottom">
+            <p>Copyright © 2021. Motors WordPress Theme by StylemixThemes</p>
+            <div class="footer-icon">
+                <a href=""><i class="fa-brands fa-facebook fa-lg" style="color: #babac5;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-lg" style="color: #babac5;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-lg" style="color:#babac5;"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g fa-lg" style="color: #babac5;"></i></a>
+            </div>
+           </div>
+       </div>
+   </footer> 
+</main>       
+<script src="address.js"></script>
+</body>
+</html>
